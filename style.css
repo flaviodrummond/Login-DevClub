@@ -4,3 +4,34 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-color: #FCFCFC;
+}
+
+body {
+    background-color: #151515;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.main-img {
+    display: block;
+    max-width: 60vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo-img {
+    max-width: 200px;
+
+}
+
+.text {
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+}
